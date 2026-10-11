@@ -1,9 +1,13 @@
 {
-  "name": "telegram-bot-render-jvm",
+  "name": "telegram-bot-render",
   "version": "1.0.0",
-  "description": "Telegram Bot Kotlin Ktor Server on Render",
+  "description": "Telegram Bot Hendy Cybertech running on Render.com",
+  "main": "server.js",
   "scripts": {
-    "build": "./gradlew build -x test",
-    "start": "java -jar build/libs/telegram-bot-render-1.0.0.jar"
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.x"
   }
 }
