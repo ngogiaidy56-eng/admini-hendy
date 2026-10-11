@@ -1,17 +1,9 @@
 {
-  "name": "hendy-bot",
+  "name": "telegram-bot-render-jvm",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Telegram Bot Kotlin Ktor Server on Render",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "dependencies": {
-    "node-telegram-bot-api": "^1.2.0",
-    "ws": "^8.21.3"
+    "build": "./gradlew build -x test",
+    "start": "java -jar build/libs/telegram-bot-render-1.0.0.jar"
   }
 }
