@@ -5,7 +5,7 @@ const http = require('http');
 
 const PORT = process.env.PORT || 3000;
 const ADMIN_ID = process.env.ADMIN_ID || '6138197737'; 
-const BOT_TOKEN = process.env.BOT_TOKEN || '8517026315:AAELCCiSvwQb-9AWi0VRRMQvT7Pf6rAZzP8';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8574999116:AAF39jSNBiOx-RqIFF08oLxHXqyxsQ9mYqw';
 const WEBHOOK_SECRET_TOKEN = process.env.WEBHOOK_SECRET_TOKEN || 'hendy_secure_secret_token_2026';
 
 // 🔗 Thay đổi đường dẫn Mini App và Web của bạn tại đây
